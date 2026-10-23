@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GGG",
+    "GWG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "W": {
+      "item": "sift:wisp_bulb"
+    }
+  },
+  "result": {
+    "item": "sift:soulglass",
+    "count": 8
+  }
+}

@@ -1,0 +1,25 @@
+size 16 16
+output assets/sift/textures/block/rimeglass.png
+color k #e6fbff
+color g #aee4ff55
+color w #ffffffcc
+color h #7fcbf0aa
+pattern tex
+kkkkkkkkkkkkkkkk
+kwwhgggggggggghk
+kwhgggggggggggwk
+khgggggggggggggk
+kggggggwgggggggk
+kgggggwwwggggggk
+kggggggwgggggggk
+kggggggggggggggk
+kggwgggggggggggk
+kgwwwggggggggwgk
+kggwgggggggggwwk
+kggggggggghhgggk
+kgggggggghhhhggk
+kggggggghhhhhhgk
+kgggggggghhhhhwk
+kkkkkkkkkkkkkkkk
+end
+place tex 0 0

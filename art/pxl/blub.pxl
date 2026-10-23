@@ -1,0 +1,123 @@
+// blub: 32x32 box-unwrap sheet. body 8x8x8 at uv 0,0. fins 4x4x1 at 0,16 and 10,16. antenna 2x4x2 at 20,16
+size 32 32
+output assets/sift/textures/entity/blub.png
+color a #bdf5ee
+color b #8fe3dc
+color c #62c9d1
+color d #2b2a4a
+color e #ffffff
+color f #ffb5d9
+color g #c9b8ff
+pattern body_top
+aaabaaaa
+aabaaaba
+abaaaeaa
+aaaabaaa
+baaaaaba
+aaeabaaa
+aabaaaba
+abaaaaab
+end
+pattern body_bottom
+cccbcccc
+ccbccccb
+cccccbcc
+bcccbccc
+ccccccbc
+cbcccccc
+cccbcbcc
+cccccccc
+end
+pattern body_left
+bbbbbbbb
+babbbabb
+bbbbbbbb
+bbabbbbb
+bbbbbabb
+babbbbbb
+bbbbabbb
+cccccccc
+end
+pattern body_right
+bbbbbbbb
+bbabbbab
+bbbbbbbb
+bbbbbabb
+bbabbbbb
+bbbbbbab
+bbbabbbb
+cccccccc
+end
+pattern body_front
+aaaaaaaa
+aaaaaaaa
+addaadda
+adeaadea
+addaadda
+afaaaafa
+aaaddaaa
+bbbbbbbb
+end
+pattern body_back
+bbbbbbbb
+bbbgbbbb
+bbbbbbbb
+bbbbbgbb
+bbgbbbbb
+bbbbbbbb
+bbbbgbbb
+cccccccc
+end
+pattern fin_face
+gfff
+ffgf
+fgff
+gggf
+end
+pattern fin_flat
+gggg
+end
+pattern fin_edge
+g
+f
+g
+f
+end
+pattern ant_top
+ee
+ee
+end
+pattern ant_bottom
+ff
+ff
+end
+pattern ant_side
+ee
+ff
+ff
+fg
+end
+place body_top 8 0
+place body_bottom 16 0
+place body_left 0 8
+place body_front 8 8
+place body_right 16 8
+place body_back 24 8
+place fin_flat 1 16
+place fin_flat 5 16
+place fin_edge 0 17
+place fin_face 1 17
+place fin_edge 5 17
+place fin_face 6 17
+place fin_flat 11 16
+place fin_flat 15 16
+place fin_edge 10 17
+place fin_face 11 17
+place fin_edge 15 17
+place fin_face 16 17
+place ant_top 22 16
+place ant_bottom 24 16
+place ant_side 20 18
+place ant_side 22 18
+place ant_side 24 18
+place ant_side 26 18

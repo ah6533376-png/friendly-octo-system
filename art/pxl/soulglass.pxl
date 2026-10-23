@@ -1,0 +1,25 @@
+size 16 16
+output assets/sift/textures/block/soulglass.png
+color k #efe2ff
+color g #c9b2ff55
+color w #ffffffcc
+color s #b79bff99
+pattern tex
+kkkkkkkkkkkkkkkk
+kwwwwggggggggggk
+kwgggggggggggggk
+kwgggggggggggggk
+kwgggggggggggggk
+kgggggggggwwwggk
+kggggggggggwgggk
+kggggggggggggggk
+kgggwggggggggggk
+kggwwwgggggggggk
+kgggwggggggggssk
+kgggggggggggsssk
+kggggggggggssssk
+kggggggggsssssgk
+kggggggggssssssk
+kkkkkkkkkkkkkkkk
+end
+place tex 0 0

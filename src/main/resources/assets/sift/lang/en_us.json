@@ -1,0 +1,17 @@
+{
+  "itemGroup.sift": "The Sift",
+  "block.sift.soulstone": "Soulstone",
+  "block.sift.wisp_bulb": "Wisp Bulb",
+  "block.sift.soulglass": "Soulglass",
+  "block.sift.rimeglass": "Rimeglass",
+  "block.sift.wail_thorn": "Wail Thorn",
+  "block.sift.hush_silt": "Hush Silt",
+  "block.sift.rift_portal": "Rift",
+  "item.sift.rift_shard": "Rift Shard",
+  "item.sift.soul_wisp": "Soul Wisp",
+  "item.sift.blub_spawn_egg": "Blub Spawn Egg",
+  "item.sift.ice_zombie_spawn_egg": "Ice Zombie Spawn Egg",
+  "entity.sift.blub": "Blub",
+  "entity.sift.ice_zombie": "Ice Zombie",
+  "message.sift.rift_wrong_dimension": "The rift will not hold here. Try the overworld or the sift."
+}

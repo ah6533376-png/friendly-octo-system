@@ -1,0 +1,27 @@
+size 16 16
+output assets/sift/textures/block/wisp_bulb.png
+color m #9a7fd0
+color n #b79ae6
+color o #fff6c2
+color p #ffe58a
+color q #ffcf5c
+color w #ffffff
+pattern tex
+mmmmmmmmmmmmmmmm
+mnnnnnnnnnnnnnnm
+mnqqqppppppqqqnm
+mnqppppoopppqqnm
+mnqppooooooppqnm
+mnpppoowwooopqnm
+mnppoowwwwoopqnm
+mnppoowwwooopqnm
+mnppooowwoooppnm
+mnqppoooooooppnm
+mnqpppooooopqqnm
+mnqqppppppppqqnm
+mnqqqpppppqqqqnm
+mnqqqqqqqqqqqqnm
+mnnnnnnnnnnnnnnm
+mmmmmmmmmmmmmmmm
+end
+place tex 0 0

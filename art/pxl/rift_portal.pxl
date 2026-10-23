@@ -1,0 +1,27 @@
+size 16 16
+output assets/sift/textures/block/rift_portal.png
+color b #6f3fcf88
+color t #9a6bf0aa
+color p #c58bffbb
+color q #ff9fe8cc
+color r #9be9ffcc
+color s #fff2ffee
+pattern tex
+bbbbbbbtppppbbbb
+bbbbtppqqqqpbbbb
+bbtppqqrrrqqpbbb
+btppqrrssssrqpbb
+tppqrssbbbbsrqpb
+tpqrsbbbttbbsrqp
+ppqrsbbtppbbsrqp
+pqrsbbtpqqpbbsrq
+qrsbbtppqqppbbsr
+ppqrsbbtppbbsrqp
+tpqrsbbbttbbsrqp
+tppqrssbbbbsrqpb
+btppqrrssssrqpbb
+bbtppqqrrrqqpbbb
+bbbtppqqqqpbbbbb
+bbbbbtppppbbbbbb
+end
+place tex 0 0

@@ -1,0 +1,70 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0.5,
+  "creature_spawn_probability": 0.15,
+  "effects": {
+    "sky_color": 16369386,
+    "fog_color": 16767472,
+    "water_color": 16230632,
+    "water_fog_color": 16763122,
+    "grass_color": 16751304,
+    "foliage_color": 16757721,
+    "particle": {
+      "options": {
+        "type": "minecraft:soul"
+      },
+      "probability": 0.004
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "sift:soulstone_vein"
+    ],
+    [],
+    [],
+    [
+      "minecraft:trees_cherry",
+      "minecraft:flower_cherry",
+      "minecraft:patch_grass_plain",
+      "sift:wisp_bulb_patch",
+      "sift:wail_thorn_patch"
+    ],
+    []
+  ],
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "sift:blub",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {}
+}

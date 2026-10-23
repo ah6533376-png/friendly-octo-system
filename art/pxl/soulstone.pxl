@@ -1,0 +1,27 @@
+size 16 16
+output assets/sift/textures/block/soulstone.png
+color a #d9c8f0
+color b #c4b0e6
+color c #ae98d6
+color d #8f7bbd
+color e #f2e6ff
+color f #ffc9e6
+pattern tex
+bbabbbcbbabbbabb
+babbabbbcbbeabab
+bbbcbbabbbbbabbc
+abbbcdcbbbabbbba
+bbabbcdcbbbcbbab
+bcbbbbcdbabbbbbb
+bbbbabbbbbcabbbf
+dbabbbbcbbbbabbb
+cdbbabbbcbbfbbab
+bcdbbbabbbbbcbba
+bbcdbbbbaebbbbbb
+abbbbfbbbbcbabbb
+bbabbbbbcbbbbbab
+bbbcabbbbbabbbcb
+cbbbbbabbbbbcbbb
+bbabbbbbabbbbbbb
+end
+place tex 0 0

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "sift",
+  "version": "${version}",
+  "name": "The Sift",
+  "description": "A pastel, soul-filled fourth dimension for Minecraft. Prototype mod.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.siftmod.SiftMod"
+    ],
+    "client": [
+      "com.siftmod.client.SiftClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,272 @@
+// ice zombie: 64x64 biped sheet (vanilla zombie uv layout), every face hand-placed
+size 64 64
+output assets/sift/textures/entity/ice_zombie.png
+color a #bfe6f7
+color b #98d0ee
+color c #72b4de
+color d #5a98c8
+color w #ffffff
+color i #e8fbff
+color e #ff7ad9
+color f #c43a9a
+color m #3a3f6b
+color p #c8b0f5
+color q #a48ae0
+color r #8168c0
+color k #6b82d0
+color l #5368b0
+color n #3f5090
+pattern head_top
+wiwiwiwi
+iwwiwwiw
+wiwiiwiw
+iwiwwiwi
+wiwiwiwi
+iwwiwiwi
+wiwiwwiw
+iwiwiwiw
+end
+pattern head_bottom
+cccccccc
+cdcccdcc
+cccccccc
+ccdcccdc
+cccccccc
+cdcccccc
+cccccdcc
+cccccccc
+end
+pattern head_side
+wiwiwiwi
+iwwiwwiw
+wiabbbbb
+iabbbbbb
+aabbbcbb
+aabbbbbb
+abbbbccb
+bbbbccdd
+end
+pattern head_front
+wiwiwiwi
+iwwiwwiw
+abbbbbba
+abbbbbba
+aeebbeea
+aefbbfea
+abbccbba
+abmwwmba
+end
+pattern head_back
+wiwiwiwi
+iwwiwwiw
+wiwiwiwi
+iwwiwwiw
+wiwiwiwi
+iwiwiwiw
+bbwiwibb
+bbbbbbbb
+end
+pattern body_top
+qppppppq
+pppppppp
+pppppppp
+qppppppq
+end
+pattern body_bottom
+rrrqrrrr
+rrrrrrrr
+rrqrrrrr
+rrrrrrrr
+end
+pattern body_front
+pqppppqp
+ppiippqp
+pppppppp
+ppqppbpp
+pqpbbbpp
+ppbbabpq
+pppbbppp
+ppqppppp
+rrrrrrrr
+pqpppqpp
+pwpwpwpw
+wiwiwiwi
+end
+pattern body_back
+qpppppqp
+ppppqppp
+pppppppp
+pqppppqp
+ppppwppp
+pppppppp
+ppqpppqp
+pppppppp
+rrrrrrrr
+pqppppqp
+pwpwpwpw
+wiwiwiwi
+end
+pattern body_side
+pppp
+pqpp
+pppp
+ppqp
+pppp
+pppp
+pqpp
+pppp
+rrrr
+pppq
+pwpw
+wiwi
+end
+pattern arm_top
+pppp
+pqpp
+pppp
+pppp
+end
+pattern arm_bottom
+iwiw
+wiwi
+iwiw
+wiwi
+end
+pattern arm_front
+pppp
+pqpp
+pppp
+wiwi
+abba
+abba
+bbbb
+bcbb
+bbbb
+bbcb
+cbbc
+iwiw
+end
+pattern arm_back
+pppp
+ppqp
+pppp
+wiwi
+abba
+abba
+bbbb
+bbcb
+bbbb
+bcbb
+cbbc
+iwiw
+end
+pattern arm_side
+pppp
+pppq
+pppp
+iwiw
+abba
+bbba
+bbbb
+bcbb
+bbbb
+bbcb
+bbbc
+wiwi
+end
+pattern leg_top
+kkkk
+klkk
+kkkk
+kkkk
+end
+pattern leg_bottom
+wiwi
+iwiw
+wiwi
+iwiw
+end
+pattern leg_front
+kkkk
+klkk
+kkkk
+kkkl
+kkkk
+lkkk
+kkkk
+kklk
+nnnn
+nwnn
+nnnn
+wiwi
+end
+pattern leg_back
+kkkk
+kkkk
+klkk
+kkkk
+kkkl
+kkkk
+lkkk
+kkkk
+nnnn
+nnwn
+nnnn
+iwiw
+end
+pattern leg_side
+kkkk
+kklk
+kkkk
+lkkk
+kkkk
+kkkl
+kkkk
+klkk
+nnnn
+nwnn
+nnnn
+wiwi
+end
+// head 0,0
+place head_top 8 0
+place head_bottom 16 0
+place head_side 0 8
+place head_front 8 8
+place head_side 16 8 flipx
+place head_back 24 8
+// body 16,16
+place body_top 20 16
+place body_bottom 28 16
+place body_side 16 20
+place body_front 20 20
+place body_side 28 20 flipx
+place body_back 32 20
+// right arm 40,16
+place arm_top 44 16
+place arm_bottom 48 16
+place arm_side 40 20
+place arm_front 44 20
+place arm_side 48 20 flipx
+place arm_back 52 20
+// right leg 0,16
+place leg_top 4 16
+place leg_bottom 8 16
+place leg_side 0 20
+place leg_front 4 20
+place leg_side 8 20 flipx
+place leg_back 12 20
+// left arm 32,48
+place arm_top 36 48
+place arm_bottom 40 48
+place arm_side 32 52 flipx
+place arm_front 36 52
+place arm_side 40 52
+place arm_back 44 52
+// left leg 16,48
+place leg_top 20 48
+place leg_bottom 24 48
+place leg_side 16 52 flipx
+place leg_front 20 52
+place leg_side 24 52
+place leg_back 28 52

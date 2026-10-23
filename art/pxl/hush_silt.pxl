@@ -1,0 +1,27 @@
+size 16 16
+output assets/sift/textures/block/hush_silt.png
+color a #6b5a9c
+color b #5b4b8a
+color c #4a3c78
+color d #7d6cb0
+color e #9a8bd0
+color f #3b2f63
+pattern tex
+abbabbcbabbabbca
+bbcbabbbbcbbabbb
+cbbbbadbbbbcbbab
+bbabbbbbcbbbdbbb
+abbcbbebbabbbcba
+bbbbabbbbbbcbbbb
+bcbbbdbbabbbbabc
+bbabbbbcbbbebbbb
+bbbcbabbbbabbcbb
+abbbbbbdbbcbbbab
+bcbbabbbbbbbabbc
+bbbbbcbbebbbbbbb
+dbbabbbbbbcbbadb
+bbcbbbabbbbbbbbb
+bbbbbbbbcbbabbcb
+fbbcbbabbbbbbbbf
+end
+place tex 0 0
